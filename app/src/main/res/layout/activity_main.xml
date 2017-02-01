@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="#799977"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/toolbar_tilte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="标题"/>
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"/>
+
+
+    <!--<android.support.design.widget.TabLayout-->
+        <!--android:id="@+id/tablayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#cdcdcd"-->
+        <!--/>-->
+
+    <RadioGroup
+            android:id="@+id/mHomeRadioGroup"
+            android:layout_width="match_parent"
+             android:layout_height="56dp"
+             android:orientation="horizontal"
+             android:layout_alignParentBottom="true"
+         android:gravity="center"
+             android:background="@color/tab_bg"  >
+
+             <RadioButton
+                 android:id="@+id/mHomeHomeRb"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:button="@null"
+                 android:gravity="center"
+                 android:text="@string/home_home"
+                 android:textColor="@drawable/selector_tab_text_color"
+                 android:background="@color/tab_bg"
+                 android:drawableTop="@drawable/selector_tab_btn_img"
+                 android:checked="true"
+                />
+
+             <RadioButton
+                 android:id="@+id/mHomeFindRb"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:button="@null"
+                 android:gravity="center"
+                 android:text="@string/home_find"
+                 android:textColor="@drawable/selector_tab_text_color"
+                 android:background="@color/tab_bg"
+                 android:drawableTop="@drawable/selector_tab_btn_img"
+                 />
+
+             <RadioButton
+                 android:id="@+id/mHomeSearchRb"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:button="@null"
+                 android:gravity="center"
+                 android:text="@string/home_search"
+                 android:textColor="@drawable/selector_tab_text_color"
+                 android:background="@color/tab_bg"
+                 android:drawableTop="@drawable/selector_tab_btn_img"
+                />
+
+             <RadioButton
+                 android:id="@+id/mHomeProfileRb"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:button="@null"
+                 android:gravity="center"
+                 android:text="@string/home_profile"
+                 android:textColor="@drawable/selector_tab_text_color"
+                 android:background="@color/tab_bg"
+                 android:drawableTop="@drawable/selector_tab_btn_img"
+
+                />
+         </RadioGroup>
+</LinearLayout>
+    <!--android:textColor="@drawable/selector_tab_text_color"-->

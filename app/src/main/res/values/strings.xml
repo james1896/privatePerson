@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">私人定制</string>
+
+    <string name="home_home">HOME</string>
+    <string name="home_find">FIND</string>
+    <string name="home_search">SEARCH</string>
+    <string name="home_profile">PROFILE</string>
+    <string name="button_back">返回</string>
+</resources>
